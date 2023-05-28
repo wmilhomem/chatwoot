@@ -2,9 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: chatwoot
+  description: Auto-atendimento
+  tags:
+    - ruby
+    - vue
   annotations:
     github.com/project-slug: wmilhomem/chatwoot
+    
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: experimental
   owner: Synlife
